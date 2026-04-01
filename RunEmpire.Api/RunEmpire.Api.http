@@ -1,0 +1,6 @@
+@RunEmpire.Api_HostAddress = http://localhost:5278
+
+GET {{RunEmpire.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
