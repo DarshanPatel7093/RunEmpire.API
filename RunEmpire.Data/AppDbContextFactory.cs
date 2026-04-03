@@ -11,7 +11,7 @@ namespace RunEmpire.Data
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
 
             optionsBuilder.UseNpgsql(
-                "Host=localhost;Port=5432;Database=RunEmpire;Username=postgres;Password=Darshan@7093");
+                "Host=dpg-d76jh4adbo4c73blivj0-a.singapore-postgres.render.com;Port=5432;Database=runempire;Username=runempire_user;Password=j3qsgg2dKyDPGAQvyyRiM8a1VCxqowI1");
 
             return new AppDbContext(optionsBuilder.Options);
         }
